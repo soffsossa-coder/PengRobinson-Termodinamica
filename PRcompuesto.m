@@ -30,7 +30,7 @@ switch lower(compuesto)
         Pc = 4.248e6;
         omega = 0.152;
 
-    case 'n-butano'
+    case {'n-butano','nbutano','c4h10'}
         Tc = 425.12;
         Pc = 3.796e6;
         omega = 0.200;
@@ -59,12 +59,6 @@ switch lower(compuesto)
         Tc = 304.13;
         Pc = 7.377e6;
         omega = 0.225;
-
-    case 'n-butano','nbutano','c4h10'
-
-        Tc = 425.2;     
-        Pc = 37.97e5;    
-        omega = 0.200;
 
     case 'nitrogenio'
         Tc = 126.20;
