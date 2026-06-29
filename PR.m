@@ -92,6 +92,6 @@ switch lower(compuesto)
 
 end
 
-out = pengRobinson(T,P,Tc,Pc,omega);
+out = PengRobinson('TP',T,P,Tc,Pc,omega);
 
 end
