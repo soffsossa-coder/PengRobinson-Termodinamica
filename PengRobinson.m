@@ -66,7 +66,10 @@ if length(Zreal)==3
     Zliq  = Zreal(1);
     Zmeta = Zreal(2);
     Zvap  = Zreal(3);
-
+    
+    % LIMITACION: se selecciona siempre la raiz vapor (Z mayor).
+    % No se implementa criterio de estabilidad por fugacidad.
+    % Para calculos en fase liquida, usar Z = Zreal(1).
     Z = Zvap;
     v = Zvap*R*T/P;
 
